@@ -15,7 +15,7 @@ app.use(cors());
 
 mongoose.connect('mongodb://kevlin:susant01235@ds255924.mlab.com:55924/myproduct', (err) => {
 	if(err) {
-		console.log('database not connected');
+		console.log('database not connected...');
 	}
 	else{
 		console.log('database connected');
